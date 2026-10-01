@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webサービス！</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--　ヘッダーエリア-->
+    <header class="header">
+        <div class="header-logo">WebCraft</div>
+        <nav class="header-nav">
+            <a href="#about">特徴</a>
+            <a href="#contact" class="btn-small">お問い合わせ</a>
+        </nav>
+    </header>
+
+    <!--　ファーストビュー（FV）エリア-->
+    <section class="fv">
+        <div class="fv-content">
+        <p class="fv-sub fade-up">成果を出すWebサイト制作</p>
+        <h1 class="fv-title fade-up">あなたのビジネスを<br>次のステージへ</h1>
+        <p class="fv-text fade-up">魅力を最大限伝えるデザインアニメーションで、集客と売り上げアップ</p>
+        <a href="#contact" class="btn-primary fade-up">無料相談してみる</a>
+    </div>
+</section>
+
+<!-- 特徴・強みエリア -->
+ <section id="about" class="features">
+    <h2 class="section-title fade-up">選ばれる３つの理由</h2>
+
+    <div class="card-container">
+        <!-- カード１ -->
+        <div class="card fade-up">
+            <div class="card-icon">🚀</div>
+            <h3 class="card-title">圧倒的なデザイン力</h3>
+            <p class="card-text">モダンで清潔感あるデザインで、ユーザーの心を掴むWebサイトを構築します。</p>
+        </div>
+
+        <!-- カード２ -->
+         <div class="card fade-up">
+            <div class="card-icon">⚡</div>
+            <h3 class="card-title">滑らかなアニメーション</h3>
+            <p class="card-text">CSS3DやJSアニメーションを活用し、記憶に残るインタラクティブな体験を提供します。</p>
+
+         </div>
+         <!-- カード３ -->
+          <div class="card fade-up">
+            <div class="card-icon">📱</div>
+            <h3 class="card-title">完全レスポンシブ対応</h3>
+            <p class="card-text">スマートフォンからPCまで、どのデバイスで見ても崩れない最適なレイアウトを実現します。</p>
+          </div>
+    </div>
+ </section>
+
+ <!-- お問い合わせエリア -->
+  <section id="contact" class="contact">
+    <h2 class="contact-tittle fade-up">お問い合わせ</h2>
+    <p class="contact-text fade-up">Webサイト制作に関するご相談見積など、お気軽にお問合せください。</p>
+
+    <form class="contact-form fade-up">
+        <div class="form-group">
+            <label for="name">お名前</label>
+            <input type="text" id="name" name="name" placeholder="山田　太郎" required>
+
+        </div>
+        <div class="form-group">
+            <label for="email">メールアドレス</label>
+            <input typ="email" id="email" name="email" placeholder="example@email.com" required>
+        </div>
+        <div class="form-group">
+            <label for="massage">メッセージ</label>
+            <textarea id="massage" name="massage" rows="5" placeholder="ご相談内容をご記入ください" required></textarea>
+        </div>
+        <button type="submit" class="btn-primary">送信する</button>
+    </form>
+  </section>
+
+  <!-- フッター -->
+   <footer class="footer">
+    <p>&copy; WebCraft.all Righats Reserved</p>
+   </footer>
+
+<script src="script.js"></script>
+    
+</body>
+</html>
